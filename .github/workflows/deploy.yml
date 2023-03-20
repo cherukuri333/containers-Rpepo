@@ -1,9 +1,6 @@
 name: Deployment (Container)
 on:
   push:
-    branches:
-      - main
-      - dev
 env:
   CACHE_KEY: node-deps
   MONGODB_DB_NAME: sai-DB
